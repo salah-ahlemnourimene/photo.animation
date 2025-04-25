@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background-image: url('oran.jpg');
+    background-size: cover;
+    background-position: center top;
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    animation: bgMove 3s ease-out forwards;
+  }
+  
+  /* Animation du fond */
+  @keyframes bgMove {
+    from {
+      background-position: center top;
+    }
+    to {
+      background-position: center bottom;
+    }
+  }
+  
